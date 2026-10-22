@@ -10,6 +10,7 @@ namespace Exam02
         public string Body { get; set; }
         public double Marks { get; set; }
         public Answer[] AnswersList { get; set; }
+       public Answer RightAnswer { get; set; }
 
         public Question(string header, string body, double marks)
         {
